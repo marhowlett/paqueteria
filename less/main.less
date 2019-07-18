@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-LightIt.woff2') format('woff2'),
+        url('fonts/MyriadPro-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('fonts/MyriadPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/MyriadPro-It.woff2') format('woff2'),
+        url('fonts/MyriadPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.row {
+    
+    display: inherit;
+}
+/* Ajustes generales de la plantilla */
+.whb-scroll-stick .woodmart-logo img {  
+   max-height: 90px;
+    margin-top: -12px;
+        transform: scale(1.4) translateY(17px);
+}
+@import "vars";
+
+
+
+h2 {
+    text-align: center;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+        width: 33.33%;
+    }
+}
+.center {
+    text-align: center;
+}
+/*Ajuste general*/
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col2 {
+      
+        padding: 10px;
+    }
+    
+    h1 {
+        color: @azul;
+       font-family: 'Myriad Pro';
+        font-weight: bold;
+            font-size: 68px;
+        
+    }
+
+    h2 {
+        color: @azul;
+       font-family: 'Myriad Pro';
+        font-size: 55px;
+        font-weight: bold;
+        line-height: 1.3em;
+
+    }
+    h3 {
+         color: @azul;
+       font-family: 'Myriad Pro';
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1.3em;
+        &.rojo {
+            color: @rojo;
+        }
+    }
+    p,
+    ul {
+        color: @azul;
+        font-size: 20px;
+       font-family: 'Myriad Pro';
+    }
+    strong {
+        color: @rojo;
+        font-weight: bold;
+        &.azul {
+            color: @azul;
+        }
+    }
+    ul {
+        li {
+            font-family: 'Myriad Pro';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            &::before {
+                content: "•";
+                color: @azul;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
+ 
+    }
+
+
+
+ 
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+       font-family: 'Myriad Pro';
+            text-transform: none;
+            font-size: 1.8em;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+            background: @rojo;
+            color: #fff;
+            &:hover {
+                background: @azul;
+                color: white;
+            }
+        
+    }
+}
+
+#slider {
+        padding: 150px 0;
+     background: url(../img/slider.png) center left no-repeat;
+    
+    p {
+        font-size: 25px;
+    }
+    .sli {
+        position: relative;
+        left: 236px;
+    }
+}
+#tarifas {
+    padding: 100px 0;
+    .col {
+            text-align: center;
+            max-height: 410px;
+            min-height: inherit;
+    }
+    img {
+            margin-bottom: 20px;
+    }
+}
+#beneficios {
+    background-color: @gris;
+    p {
+            max-width: 300px;
+    text-align: center;
+        color: white;
+        
+    margin: 0 auto;
+            margin-top: -70px;
+        &.bus {
+                margin-top: -96px;
+        }
+    }
+}
+#zona {
+    img {
+            vertical-align: bottom;
+            display: block;
+    margin: 0 auto;
+    }
+    .btn {
+        position: relative;
+    top: -107px;
+    }
+    p {
+        text-align: center;
+    }
+    hr {
+            width: 900px;
+    border-top: 6px solid;
+    
+    color: @gris;
+        position: relative;
+        top: 60px;
+    }
+}
+#tienda {
+    hr {
+            width: 900px;
+    border-top: 6px solid;
+    
+    color: @gris;
+    }
+}
+#pagar {
+     background: url(../img/pagar.png) center no-repeat;
+        padding: 250px 0;
+    h2, p {
+        color: white;
+            position: relative;
+    top: -47px;
+    
+    }
+    h2 {
+        font-size: 68px;
+            left: 259px;
+    }
+    p {
+            font-size: 1.8em;
+        text-align: center;
+            left: 303px;
+    top: -61px;
+    }
+}
+#servicio {
+    .col {
+    min-height: inherit;
+    text-align: center;
+    }
+     hr {
+            width: 900px;
+    border-top: 6px solid;
+    
+    color: @gris;
+    }
+}
+
+#contacto {
+    .caldera-grid .form-control {
+    background-color: @gris_cont;
+         font-family: 'Myriad Pro';
+        font-style: italic;
+    }
+    .btn {
+            font-size: 1.8em!important;
+    -webkit-border-radius: 10px!important;
+    }
+    #fld_1148561_1-wrap {
+        text-align: right!important;
+    }
+    strong.azul {
+            font-size: 45px;
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    }
+   
+}
+
+#mensaje {
+    background-color: @azul;
+    .col {
+        text-align: center;
+        min-height: inherit;
+            padding: 30px;
+    }
+    p {
+        color: white;
+    }
+    img {
+        margin-bottom: 20px;
+    }
+}
+#cobra {
+     hr {
+            width: 900px;
+    border-top: 6px solid;
+    
+    color: @gris;
+             margin-bottom: -45px;
+    }
+    .mod {
+        background-color: @grismensaje;
+            padding: 15px 5px;
+            position: relative;
+            top: -129px;
+    }
+    p {
+        text-align: justify;
+        &.modali {
+            text-align: center;
+                max-width: 350px;
+    margin: auto;
+        }
+        
+    }
+    h3 {
+        text-align: center;
+        margin-top: -68px;
+    }
+}
+
+#nosotros {
+     background: url(../img/nosotros.png) center no-repeat;
+           padding: 84px 0;
+    p {
+           max-width: 537px;
+       font-size: 29px;
+    margin: auto;
+    }
+    
+    .nos {
+        position: relative;
+           left: 300px;
+    }
+}
+
+#valores {
+        padding: inherit;
+    .fondo2 {
+        background-color: @azul;
+        
+    }
+    .fondo {
+        background: url(../img/valo.png) left no-repeat;
+        
+    }
+    h3 {
+        text-align: center;
+    }
+    p {
+        color: white;
+        text-align: center;
+            max-width: 400px;
+    margin: auto;
+    }
+     hr {
+            width: 900px;
+    border-top: 6px solid;
+    
+    color: @gris;
+
+    }
+}
