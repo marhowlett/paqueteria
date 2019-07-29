@@ -63,10 +63,10 @@
                 </div>
                 <div class="col">
                     <div class="mod">
-                        <p class="modali">Esta modalidad de Mensajería Programada puede ayudarlos <strong class="azul">reducir costos</strong>, cuando realizan varias entregas en un mes. <strong>Contáctanos</strong> para obtener un paquete de entregas personalizado.</p>
+                        <p class="modali">Esta modalidad de Mensajería Programada puede ayudarlos <strong class="azul">reducir costos</strong>, cuando realizan varias entregas en un mes. <a href="https://enviospaqueteexpress.com/servicios-de-envios/#contacto"><strong>Contáctanos</strong></a> para obtener un paquete de entregas personalizado.</p>
                     </div>
                      <h3 class="rojo">Mandados</h3>
-                   <p>Para <strong class="azul">ahorrarte</strong> tiempo y dinero realizamos cualquier tipo de mandado, objetos olvidados, compras y más, <strong>contáctanos</strong> y te ayudaremos.  </p>
+                   <p>Para <strong class="azul">ahorrarte</strong> tiempo y dinero realizamos cualquier tipo de mandado, objetos olvidados, compras y más, <a href="https://enviospaqueteexpress.com/servicios-de-envios/#contacto"><strong>contáctanos</strong></a> y te ayudaremos.  </p>
                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/manda.png" alt="Logo">
                 </div>
 

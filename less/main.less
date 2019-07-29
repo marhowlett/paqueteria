@@ -30,10 +30,7 @@
     font-style: italic;
 }
 
-.row {
-    
-    display: inherit;
-}
+
 /* Ajustes generales de la plantilla */
 .whb-scroll-stick .woodmart-logo img {  
    max-height: 90px;
@@ -161,9 +158,9 @@ h2 {
        font-family: 'Myriad Pro';
             text-transform: none;
             font-size: 1.8em;
-         -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+         -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+ border-radius: 25px;
             background: @rojo;
             color: #fff;
             &:hover {
@@ -381,4 +378,63 @@ h2 {
     color: @gris;
 
     }
+}
+
+footer {
+    background-color: @gris;
+    .col2 {
+        text-align: center;
+    }
+}
+.whb-scroll-stick .woodmart-logo img {
+   
+    margin-top: -53px!important;
+        margin-left: -30px;
+    }
+body.home, body.page-template-quienes_somos, body.page-template-servicios, body.page-template-zona {
+.main-page-wrapper {
+    padding-top: inherit;
+}
+    .row {
+    
+    display: inherit;
+}
+    @media (min-width: 1650px){
+.whb-general-header .woodmart-logo img {
+    max-height: 90px;
+    position: relative;
+    margin-left: 274px;
+}  
+    }
+    @media (max-width: 1649px){
+.whb-general-header .woodmart-logo img {
+    max-height: 90px;
+    
+        position: relative;
+    margin-left: 70px;
+}  
+    }
+    
+}
+ul.menu a, .whb-search span, .woodmart-wishlist-info-widget a, .woodmart-shopping-cart a, span .woocommerce-Price-amount {
+    color: white!important;
+}
+span.wishlist-count, span.woodmart-cart-number {
+    background-color: @rojo!important;
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a {
+    color: white;
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a::hover {
+    color: @rojo!important;
+}
+span.nav-link-text::after {
+    color: white;
+}
+p.price span {
+    color: @azul!important;
+}
+
+ul.sub-menu span, span.woocommerce-Price-amount, span.page-numbers, p.price {
+    color:  @azul!important;
 }

@@ -7,7 +7,7 @@
               <h1>¡No pierdas tiempo! <br>Nosotros lo llevamos...</h1>
               <p>Envia tus documentos y paquetes sin contratiempos <br>
 en varios municipios del <strong>Estado de  Morelos</strong></p>
-          <a href="#" class="btn">Ver tarifas</a>
+          <a href="https://enviospaqueteexpress.com/zona-de-cobertura/" class="btn">Ver tarifas</a>
     
           </div>
     </section>
@@ -28,7 +28,7 @@ en varios municipios del <strong>Estado de  Morelos</strong></p>
                 <div class="col prueba_col">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mandados.png" alt="Logo">
                     <h3>Mandados</h3>
-                    <p>Realizamos cualquier tipo de mandado, objetos olvidados, compras y más <br> <strong>Contáctanos</strong></p>
+                    <p>Realizamos cualquier tipo de mandado, objetos olvidados, compras y más <br> <a href="https://enviospaqueteexpress.com/#contacto"><strong>Contáctanos</strong></a> </p>
                     <p></p>
                 </div>
 
@@ -39,13 +39,13 @@ en varios municipios del <strong>Estado de  Morelos</strong></p>
                 <div class="col">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/cobranza1.png" alt="Logo">
                     <h3>Cobranzas</h3>
-                    <p>Le ayudamos a manipular correctamente los documentos involucrados en la cobranza, evitándole inconvenientes. <br><strong> Saber más </strong></p>
+                    <p>Le ayudamos a manipular correctamente los documentos involucrados en la cobranza, evitándole inconvenientes. <a href="https://enviospaqueteexpress.com/servicios-de-envios/"><strong> Saber más </strong></a></p>
 
                 </div>
                 <div class="col prueba_col">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tienda en linea.png" alt="Logo">
                     <h3>Ventas</h3>
-                    <p>En nuestra tienda en línea te ofrecemos artículos de oficina y los llevamos gratis a cualquier municipio del Estado de Morelos <br><strong>Ver tienda</strong> </p>
+                    <p>En nuestra tienda en línea te ofrecemos artículos de oficina y los llevamos gratis a cualquier municipio del Estado de Morelos <br><a href="https://enviospaqueteexpress.com/shop/"><strong>Ver tienda</strong> </a></p>
                 </div>
 
 
@@ -103,12 +103,12 @@ del Estado de Morelos</p>
     <section id="zona" class="template-section">
           <h2>Zona de Cobertura</h2>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Zona 3.png" alt="Logo">
-          <div class="center"> <a href="#" class="btn">Ver tarifas por Zona</a></div>
+          <div class="center"> <a href="https://enviospaqueteexpress.com/zona-de-cobertura/" class="btn">Ver tarifas por Zona</a></div>
     </section>
        <section id="tienda" class="template-section">
          <hr>
           <h2>Nuestra Tienda</h2>
-         
+          <?php echo do_shortcode( '[woodmart_products layout="carousel" scroll_per_page="no" items_per_page="15" product_hover="icons" sale_countdown="0" stock_progress_bar="0" highlighted_products="0" products_bordered_grid="0" lazy_loading="no" slides_per_view="5" autoplay="yes" hide_pagination_control="no" hide_prev_next_buttons="no" center_mode="yes" wrap="no" scroll_carousel_init="no"]' ); ?>
     </section>
      <section id="pagar" class="template-section">
           <h2>¿Cómo pagar?</h2>
@@ -130,7 +130,7 @@ del Estado de Morelos</p>
                 </div>
                 <div class="col prueba_col">
                     <p>Paquete Express es un servicio de envíos que resuelve las  necesidades de mensajería,  mandados  y cobranzas para personas, e-commerce, empresas y negocios en Morelos, México. </p>
-                     <a href="#" class="btn">Saber más</a>
+                     <a href="https://enviospaqueteexpress.com/nosotros/" class="btn">Saber más</a>
                 </div>
 
 
