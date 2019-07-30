@@ -79,12 +79,12 @@ a 2 horas. </p>
             </div>
             <div class="grid">
 
-                <div class="col2">
+                <div class="col2 ">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/costos.png" alt="Logo">
                     <p>Costos más accesibles</p>
 
                 </div>
-                <div class="col2 prueba_col">
+                <div class="col2 prueba_col dis">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/men.png" alt="Logo">
                     <p>Mensajería programada a la medida de nuestros clientes frecuentes</p>
                 </div>
@@ -102,7 +102,8 @@ del Estado de Morelos</p>
     
     <section id="zona" class="template-section">
           <h2>Zona de Cobertura</h2>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Zona 3.png" alt="Logo">
+          <img class="lap"src="<?php echo get_stylesheet_directory_uri(); ?>/img/Zona 3.png" alt="Logo">
+          <img class="movil" src="<?php echo get_stylesheet_directory_uri(); ?>/img/zonamovil.png" alt="Logo">
           <div class="center"> <a href="https://enviospaqueteexpress.com/zona-de-cobertura/" class="btn">Ver tarifas por Zona</a></div>
     </section>
        <section id="tienda" class="template-section">

@@ -1,1 +1,177 @@
 //main: main.less
+
+
+
+@media screen and (max-width: 750px) {
+    .nav-link-text {
+    color: black;
+}
+    /*LOGO*/
+    .whb-scroll-stick .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+}
+    
+    //Fix slide
+    
+    canvas{
+        touch-action:auto !important;
+    }
+    
+    .scene-nav{
+        display: none;
+    }
+    
+    /*Esquema por defecto para las secciones*/
+    .grid {
+		    display: initial;
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+     margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+}
+
+
+    .template-section {
+        .col {
+            min-height: auto;
+            padding: 20px;
+        }
+		h1 {
+			    font-size: 36px;
+		}
+    }
+    
+   #slider {
+    padding: 209px 0;
+    background: url(../img/slidermovil.png) center no-repeat;
+
+        h1 {
+               font-size: 35px;
+    position: relative;
+    top: -153px;
+        }
+        .sli {
+                left: inherit;
+        }
+        p {
+    font-size: 23px;
+    position: relative;
+    max-width: 214px;
+    left: 133px;
+    top: -72px;
+}
+}
+    #tarifas{
+        .col {
+    text-align: center;
+    max-height: inherit;
+    min-height: inherit;
+}
+        
+}
+    #beneficios {
+        .dis {
+            margin-top: 35px;
+        }
+    }
+    #zona {
+    img {
+         
+        &.movil {
+            display: inherit;
+        }
+        &.lap {
+            display: none;
+        }
+    }
+        .btn {
+    position: relative;
+    top: inherit;
+}
+    }
+    
+        #pagar {
+    background: url(../img/pg.png) left no-repeat;
+       padding: 262px 0;
+             h2 {
+        font-size: 35px;
+    left: 10px;
+    top: 253px;
+            }
+            p {
+                font-size: 14px;
+    text-align: left;
+    left: 35px;
+    top: 237px;
+    max-width: 310px;
+    margin: auto;
+            }
+}
+    #contacto strong.azul {
+    font-size: 38px;
+    }
+    
+    /***ACERCA DE NOSOTROS*/
+    
+    #nosotros {
+    background: url(../img/nosotrosmovil.png) left no-repeat;
+    padding: 166px 0;
+     .nos {
+    position: relative;
+    left: inherit;
+}
+        h2 {
+            position: relative;
+    top: -148px;
+        }
+         p {
+    max-width: 300px;
+    text-align: justify;
+    font-size: 20px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: 117px;
+}
+        
+    }
+    
+    #valores .fondo {
+    background: url(../img/valomovil.png) center no-repeat;
+    min-height: 560px;
+}
+    
+    /***NUESTROS SERVICIOS**/
+    
+    #cobra .mod {
+    background-color: #d2d2d2;
+    padding: 15px 5px;
+    position: relative;
+    top: -1169px;
+}
+    #cobra h3 {
+    text-align: center;
+    margin-top: 135px;
+}
+    
+    #cobra h3.manda {
+            margin-top: -231px;
+    }
+}
