@@ -90,6 +90,9 @@ h2 {
 .template-section h3.rojo {
   color: #ff0000;
 }
+.template-section a:hover {
+  color: #ff0000;
+}
 .template-section p,
 .template-section ul {
   color: #233b70;
@@ -323,6 +326,15 @@ footer {
 }
 footer .col2 {
   text-align: center;
+}
+footer p {
+  text-align: center;
+}
+#terminos h3 {
+  font-size: 35px;
+}
+#terminos h3 strong {
+  color: #233b70;
 }
 .whb-scroll-stick .woodmart-logo img {
   margin-top: -53px !important;

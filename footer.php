@@ -49,12 +49,15 @@
                    
                     <a href="https://enviospaqueteexpress.com/my-account/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mi cuenta.png" alt="Logo">
                   
- <p><b>Mi carrito</b></p></a>
+ <p><b>Mi cuenta</b></p></a>
                 </div>
 
 
             </div>
-        </div>
+             <a href="https://enviospaqueteexpress.com/terminos-y-condiciones/">
+                  
+ <p><b>Terminos y Condiciones</b></p></a>
+            </div>
     </footer>
 <?php endif ?>
 </div> <!-- end wrapper -->
